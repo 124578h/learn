@@ -1,5 +1,5 @@
 import streamlit as st
-import 1
+import two
 # 显示文本
 st.write("## 早上好！")
 
