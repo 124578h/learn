@@ -139,7 +139,6 @@ password = st.text_input(
     max_chars=20,
     key="password_input",
     label="密码",
-    label_visibility=st.LabelVisibility.DEFAULT,
     help="请输入您的账户密码"
 )  # 在这个示例中，我们创建了一个密码输入框，并设置了初始值为空字符串、占位符为“至少6位字符”、最大字符数为20。同时，我们还设置了 key、label 和 help 参数来提供额外的信息和自定义标签文本。label_visibility 参数设置为 st.LabelVisibility.DEFAULT，这意味着标签将正常显示。如果需要隐藏标签，可以将其设置为 st.LabelVisibility.HIDDEN
 
