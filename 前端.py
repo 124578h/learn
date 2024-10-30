@@ -95,7 +95,7 @@ st.write({"a": 1, "b": 2, "c": 3})
 st.title("我的个人网站 ")
 
 # 显示图片
-st.image("pythonProject/good.png", width=200)
+st.image("good.png", width=200)
 
 # 创建并显示 DataFrame
 import pandas as pd
